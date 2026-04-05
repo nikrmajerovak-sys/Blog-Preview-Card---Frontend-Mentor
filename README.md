@@ -16,4 +16,4 @@ The goal is to create a **responsive card** with an image, article title, tags, 
 ---
 
 ## Installation / Running Locally
-1. Clone the repository: 
+[1. Clone the repository: ] (https://nikrmajerovak-sys.github.io/Blog-Preview-Card---Frontend-Mentor/)
