@@ -168,7 +168,6 @@ h2 {
 }
 
  .info {
-    color: var(--paragraph-text);
     line-height: 1.3rem;
 }
 }
