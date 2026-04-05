@@ -18,9 +18,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-height: 100dvh;
-gap: 3rem;
-
+    gap: 3rem;
 }
 
 #card {
@@ -33,11 +31,8 @@ gap: 3rem;
     width: 384px;
     height: 565px;
     box-shadow: 8px 8px 0 black;
-    padding: 1.2rem;
-   
+    padding: 1.2rem;   
 }
-
-
  
 #ilustrace-img-container {
     display: flex;
@@ -46,11 +41,10 @@ gap: 3rem;
 }
 
 #ilustrace-img-container img {
-border-radius: 10px;
-
+    border-radius: 10px;
 } 
-.text-karty {
-  
+
+.text-karty { 
     margin-left: 5px;
     display: flex;
     flex-direction: column;
@@ -78,7 +72,6 @@ a {
 }
 
 a:hover {
-
 cursor: pointer;
 }
 
@@ -86,30 +79,25 @@ a:active {
     color: var(--background);
 }
 
-
 a:focus {
    outline: 1px solid black;
+}
 
 h2 {
-
     font-size: 1.5rem;
 }
 
 .info {
     color: var(--paragraph-text);
-
     line-height: 1.7rem;
 }
 
 #author-container {
     display: flex;
-   
     justify-content: flex-start;
     align-items: center;
     gap: 2rem;
 }
-
-
 
 .author {
     color: var(--text);
@@ -121,77 +109,68 @@ h2 {
 }
 
 @media (max-width: 768px) {
-  html {
-    font-size: 12px;
+    html {
+        font-size: 12px;
   }
     #card {
-    width: 288px;
-    height: 424px;
+        width: 288px;
+        height: 424px;
 }
     #ilustrace-img-container img {
-    border-radius: 10px;
-    width: 100%;
+        border-radius: 10px;
+        width: 100%;
  }   
 
-#author-container {
-    display: flex;
-
-    justify-content: flex-start;
-    align-items: center;
-    gap: 1rem;
+    #author-container {
+        display: flex;
+    
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
 }
 
- .icon {
-    transform: scale(0.6);
-
- }
-
- 
+     .icon {
+        transform: scale(0.6);
+ } 
 }
 
 @media (max-width: 480px)  {
-  html {
-    font-size: 15px;
+    html {
+        font-size: 15px;
   }
-    #card {
-    width: 288px;
-height: 424px;
+     #card {
+        width: 288px;
+        height: 424px;
 
 }
     #ilustrace-img-container img {
-    border-radius: 10px;
-    width: 100%;
+        border-radius: 10px;
+        width: 100%;
  }   
 
-#author-container {
-    display: flex;
-   
-    justify-content: flex-start;
-    align-items: center;
-    gap: 1rem;
+    #author-container {
+        display: flex;
+       
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
 }
 
- .icon {
-    transform: scale(0.6);
-
+     .icon {
+        transform: scale(0.6);
  }
 
- .text-karty {
-  
-    margin-left: 5px;
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
+     .text-karty {
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
 }
-
- 
 
  .info {
     color: var(--paragraph-text);
-
     line-height: 1.3rem;
 }
- 
 }
    
 
