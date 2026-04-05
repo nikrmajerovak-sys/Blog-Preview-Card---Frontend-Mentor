@@ -78,9 +78,17 @@ a {
 }
 
 a:hover {
-color: var(--background);
-curosr: pointer;
+
+cursor: pointer;
 }
+
+a:active {
+    color: var(--background);
+}
+
+
+a:focus {
+   outline: 1px solid black;
 
 h2 {
 
